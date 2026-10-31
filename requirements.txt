@@ -1,0 +1,4 @@
+numpy>=1.24
+Pillow>=9.0
+reportlab>=4.0
+# FFmpeg is a separate system executable (available in most Colab runtimes).
