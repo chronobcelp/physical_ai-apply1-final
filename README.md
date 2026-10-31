@@ -57,28 +57,3 @@ python make_report.py
 | `(6, 2)`追加・再学習AI | 成功 | 14 |
 
 評価は**スタートとゴールが固定で、AIは決定論的**です。100回の成功率は100種類の未知環境で成功した意味ではありません。
-
-## PDFレポートを提出用に仕上げる
-
-`make_report.py` 冒頭の下記3つを変更してから、もう一度実行します。
-
-```python
-OMNI_ACCOUNT = '実際のomnicampusアカウント名'
-GITHUB_URL = 'https://github.com/ユーザー名/リポジトリ名'
-YOUTUBE_URL = 'https://youtu.be/新しい比較動画のID'
-```
-
-これでPDF本文のリンクとファイル名が更新されます。**前回の80秒動画と今回の比較動画は内容が違うため、新しい112秒動画をYouTubeにアップロードしてください。**
-
-## GitHubとYouTubeの最短提出手順
-
-- GitHub: https://github.com/new からリポジトリを作り、`Public` にして本コードをアップロードする。
-- YouTube Studio: https://studio.youtube.com/ で新しい `results/comparison_demo.mp4` をアップロードし、タイトルを `PAI最終課題_omnicampusアカウント名` とする。
-- 公開範囲は「限定公開」以上、子ども向け「いいえ」、年齢制限なし、プレミア公開なし。
-- omnicampusに、レポートPDFとGitHub URL、YouTube URLを提出する。
-
-提出期限：**2026年11月2日（月）午前10時**。
-
-## 生成AIの利用について
-
-本コードはサンプルを基に生成AIの補助で比較実験を追加したものです。講義の注意事項に従い、コードや説明の内容を確認して提出してください。他人の作品や公開不可の教材をそのまま再配布しないでください。
